@@ -5,10 +5,10 @@ import datetime
 import json
 import threading
 
-import elasticsearch
+import elasticsearch1 as elasticsearch
 import mock
 import pytest
-from elasticsearch.exceptions import ElasticsearchException
+from elasticsearch1.exceptions import ElasticsearchException
 
 from elastalert.enhancements import BaseEnhancement
 from elastalert.kibana import dashboard_temp

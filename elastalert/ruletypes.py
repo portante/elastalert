@@ -2,7 +2,7 @@
 import datetime
 
 from blist import sortedlist
-from elasticsearch.client import Elasticsearch
+from elasticsearch1.client import Elasticsearch
 from util import dt_to_ts
 from util import EAException
 from util import elastalert_logger

@@ -9,7 +9,7 @@ import time
 
 import argparse
 import yaml
-from elasticsearch.client import Elasticsearch
+from elasticsearch1.client import Elasticsearch
 
 
 def main():

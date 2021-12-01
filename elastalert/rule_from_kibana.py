@@ -6,7 +6,7 @@ from __future__ import print_function
 import json
 
 import yaml
-from elasticsearch.client import Elasticsearch
+from elasticsearch1.client import Elasticsearch
 
 from elastalert.kibana import filters_from_dashboard
 

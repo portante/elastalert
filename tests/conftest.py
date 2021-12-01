@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import datetime
 
-import elasticsearch
+import elasticsearch1
 import mock
 import pytest
 

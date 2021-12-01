@@ -22,8 +22,8 @@ from config import get_rule_hashes
 from config import load_configuration
 from config import load_rules
 from croniter import croniter
-from elasticsearch.client import Elasticsearch
-from elasticsearch.exceptions import ElasticsearchException
+from elasticsearch1.client import Elasticsearch
+from elasticsearch1.exceptions import ElasticsearchException
 from enhancements import DropMatchException
 from util import cronite_datetime_to_timestamp
 from util import dt_to_ts
